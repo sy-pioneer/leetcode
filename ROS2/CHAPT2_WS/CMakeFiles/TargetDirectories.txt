@@ -1,6 +1,0 @@
-/home/zsy/sy_git/ROS2/CHAPT2_WS/CMakeFiles/ros2_cpp_node.dir
-/home/zsy/sy_git/ROS2/CHAPT2_WS/CMakeFiles/uninstall.dir
-/home/zsy/sy_git/ROS2/CHAPT2_WS/CMakeFiles/ros2_cpp_uninstall.dir
-/home/zsy/sy_git/ROS2/CHAPT2_WS/CMakeFiles/test.dir
-/home/zsy/sy_git/ROS2/CHAPT2_WS/CMakeFiles/edit_cache.dir
-/home/zsy/sy_git/ROS2/CHAPT2_WS/CMakeFiles/rebuild_cache.dir

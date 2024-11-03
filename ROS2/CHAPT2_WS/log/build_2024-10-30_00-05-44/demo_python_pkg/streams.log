@@ -1,0 +1,26 @@
+[0.298s] Invoking command in '/home/zsy/sy_git/ROS2/CHAPT2_WS/demo_python_pkg': PYTHONPATH=/home/zsy/sy_git/ROS2/CHAPT2_WS/build/demo_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/demo_python_pkg build --build-base /home/zsy/sy_git/ROS2/CHAPT2_WS/build/demo_python_pkg/build install --record /home/zsy/sy_git/ROS2/CHAPT2_WS/build/demo_python_pkg/install.log --single-version-externally-managed install_data
+[0.408s] running egg_info
+[0.408s] writing ../build/demo_python_pkg/demo_python_pkg.egg-info/PKG-INFO
+[0.409s] writing dependency_links to ../build/demo_python_pkg/demo_python_pkg.egg-info/dependency_links.txt
+[0.409s] writing entry points to ../build/demo_python_pkg/demo_python_pkg.egg-info/entry_points.txt
+[0.409s] writing requirements to ../build/demo_python_pkg/demo_python_pkg.egg-info/requires.txt
+[0.409s] writing top-level names to ../build/demo_python_pkg/demo_python_pkg.egg-info/top_level.txt
+[0.410s] reading manifest file '../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+[0.410s] adding license file 'LICENSE'
+[0.411s] writing manifest file '../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+[0.411s] running build
+[0.411s] running build_py
+[0.411s] copying demo_python_pkg/person_node.py -> /home/zsy/sy_git/ROS2/CHAPT2_WS/build/demo_python_pkg/build/lib/demo_python_pkg
+[0.411s] running install
+[0.412s] running install_lib
+[0.412s] copying /home/zsy/sy_git/ROS2/CHAPT2_WS/build/demo_python_pkg/build/lib/demo_python_pkg/person_node.py -> /home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg
+[0.412s] byte-compiling /home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg/person_node.py to person_node.cpython-310.pyc
+[0.413s] running install_data
+[0.415s] running install_egg_info
+[0.415s] removing '/home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.415s] Copying ../build/demo_python_pkg/demo_python_pkg.egg-info to /home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg-0.0.0-py3.10.egg-info
+[0.415s] running install_scripts
+[0.425s] Installing person_node0 script to /home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_python_pkg/lib/demo_python_pkg
+[0.425s] Installing python_node script to /home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_python_pkg/lib/demo_python_pkg
+[0.425s] writing list of installed files to '/home/zsy/sy_git/ROS2/CHAPT2_WS/build/demo_python_pkg/install.log'
+[0.437s] Invoked command in '/home/zsy/sy_git/ROS2/CHAPT2_WS/demo_python_pkg' returned '0': PYTHONPATH=/home/zsy/sy_git/ROS2/CHAPT2_WS/build/demo_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/demo_python_pkg build --build-base /home/zsy/sy_git/ROS2/CHAPT2_WS/build/demo_python_pkg/build install --record /home/zsy/sy_git/ROS2/CHAPT2_WS/build/demo_python_pkg/install.log --single-version-externally-managed install_data

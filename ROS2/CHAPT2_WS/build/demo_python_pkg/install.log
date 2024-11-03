@@ -1,6 +1,10 @@
 /home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg/__init__.py
+/home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg/person_node.py
+/home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg/writer_node.py
 /home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg/python_node.py
 /home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg/__pycache__/__init__.cpython-310.pyc
+/home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg/__pycache__/person_node.cpython-310.pyc
+/home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg/__pycache__/writer_node.cpython-310.pyc
 /home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg/__pycache__/python_node.cpython-310.pyc
 /home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_python_pkg/share/ament_index/resource_index/packages/demo_python_pkg
 /home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_python_pkg/share/demo_python_pkg/package.xml
@@ -11,4 +15,6 @@
 /home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg-0.0.0-py3.10.egg-info/entry_points.txt
 /home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg-0.0.0-py3.10.egg-info/top_level.txt
 /home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg-0.0.0-py3.10.egg-info/zip-safe
+/home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_python_pkg/lib/demo_python_pkg/person_node0
 /home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_python_pkg/lib/demo_python_pkg/python_node
+/home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_python_pkg/lib/demo_python_pkg/writer_node1

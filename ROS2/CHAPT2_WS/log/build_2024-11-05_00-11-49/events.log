@@ -1,0 +1,164 @@
+[0.000000] (-) TimerEvent: {}
+[0.000616] (demo_cpp_pkg) JobQueued: {'identifier': 'demo_cpp_pkg', 'dependencies': OrderedDict()}
+[0.000689] (demo_python_pkg) JobQueued: {'identifier': 'demo_python_pkg', 'dependencies': OrderedDict()}
+[0.000704] (demo_cpp_pkg) JobStarted: {'identifier': 'demo_cpp_pkg'}
+[0.004646] (demo_python_pkg) JobStarted: {'identifier': 'demo_python_pkg'}
+[0.008811] (demo_cpp_pkg) JobProgress: {'identifier': 'demo_cpp_pkg', 'progress': 'cmake'}
+[0.009290] (demo_cpp_pkg) JobProgress: {'identifier': 'demo_cpp_pkg', 'progress': 'build'}
+[0.009685] (demo_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zsy/sy_git/ROS2/CHAPT2_WS/build/demo_cpp_pkg', '--', '-j4', '-l4'], 'cwd': '/home/zsy/sy_git/ROS2/CHAPT2_WS/build/demo_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'zsy'), ('SSH_CLIENT', '192.168.196.1 52827 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/zsy/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/zsy/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/zsy'), ('OLDPWD', '/home/zsy/sy_git/ROS2/CHAPT2_WS/demo_cpp_pkg/include'), ('TERM_PROGRAM_VERSION', '1.95.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-50df5172-901a-4c60-addd-3e0201ac561b.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/zsy/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/zsy/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zsy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/zsy/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-05960287df.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/zsy/sy_git/ROS2/CHAPT2_WS/build/demo_cpp_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.196.1 52827 192.168.196.128 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.035820] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.101748] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.101891] (-) TimerEvent: {}
+[0.116882] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.118098] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.121372] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.126570] (demo_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.134156] (demo_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.151720] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.152403] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.203068] (-) TimerEvent: {}
+[0.213923] (demo_cpp_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.240434] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.286216] (demo_cpp_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.286388] (demo_cpp_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/zsy/sy_git/ROS2/CHAPT2_WS/demo_cpp_pkg/include\n'}
+[0.286434] (demo_cpp_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.287334] (demo_cpp_pkg) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.290908] (demo_cpp_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.291069] (demo_cpp_pkg) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.295877] (demo_cpp_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.296027] (demo_cpp_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.299811] (demo_cpp_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.299926] (demo_cpp_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.303322] (-) TimerEvent: {}
+[0.316866] (demo_python_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/demo_python_pkg', 'build', '--build-base', '/home/zsy/sy_git/ROS2/CHAPT2_WS/build/demo_python_pkg/build', 'install', '--record', '/home/zsy/sy_git/ROS2/CHAPT2_WS/build/demo_python_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/zsy/sy_git/ROS2/CHAPT2_WS/demo_python_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:en_US:en', 'USER': 'zsy', 'SSH_CLIENT': '192.168.196.1 52827 22', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/zsy/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/zsy/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/zsy', 'OLDPWD': '/home/zsy/sy_git/ROS2/CHAPT2_WS/demo_cpp_pkg/include', 'TERM_PROGRAM_VERSION': '1.95.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-50df5172-901a-4c60-addd-3e0201ac561b.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/zsy/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/zsy/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'LOGNAME': 'zsy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/zsy/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'PAPERSIZE': 'a4', 'LC_ADDRESS': 'zh_CN.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'zh_CN.UTF-8', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-05960287df.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/zsy/sy_git/ROS2/CHAPT2_WS/build/demo_python_pkg', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.196.1 52827 192.168.196.128 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/zsy/sy_git/ROS2/CHAPT2_WS/build/demo_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_python_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1'}, 'shell': False}
+[0.317306] (demo_cpp_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[0.317356] (demo_cpp_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/zsy/sy_git/ROS2/CHAPT2_WS/build/demo_cpp_pkg\n'}
+[0.337026] (demo_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_node\x1b[0m\n'}
+[0.342390] (demo_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target learn_auto\x1b[0m\n'}
+[0.344212] (demo_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target person_node\x1b[0m\n'}
+[0.348130] (demo_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target learn_shared_ptr\x1b[0m\n'}
+[0.358856] (demo_cpp_pkg) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/person_node.dir/src/person_node.cpp.o\x1b[0m\n'}
+[0.361849] (demo_cpp_pkg) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/learn_auto.dir/src/learn_auto.cpp.o\x1b[0m\n'}
+[0.371599] (demo_cpp_pkg) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/cpp_node.dir/src/cpp_node.cpp.o\x1b[0m\n'}
+[0.371861] (demo_cpp_pkg) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/learn_shared_ptr.dir/src/learn_shared_ptr.cpp.o\x1b[0m\n'}
+[0.404113] (-) TimerEvent: {}
+[0.436143] (demo_python_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[0.436385] (demo_python_pkg) StdoutLine: {'line': b'writing ../build/demo_python_pkg/demo_python_pkg.egg-info/PKG-INFO\n'}
+[0.436432] (demo_python_pkg) StdoutLine: {'line': b'writing dependency_links to ../build/demo_python_pkg/demo_python_pkg.egg-info/dependency_links.txt\n'}
+[0.436465] (demo_python_pkg) StdoutLine: {'line': b'writing entry points to ../build/demo_python_pkg/demo_python_pkg.egg-info/entry_points.txt\n'}
+[0.436496] (demo_python_pkg) StdoutLine: {'line': b'writing requirements to ../build/demo_python_pkg/demo_python_pkg.egg-info/requires.txt\n'}
+[0.437392] (demo_python_pkg) StdoutLine: {'line': b'writing top-level names to ../build/demo_python_pkg/demo_python_pkg.egg-info/top_level.txt\n'}
+[0.437659] (demo_python_pkg) StdoutLine: {'line': b"reading manifest file '../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'\n"}
+[0.437713] (demo_python_pkg) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[0.438015] (demo_python_pkg) StdoutLine: {'line': b"writing manifest file '../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'\n"}
+[0.438047] (demo_python_pkg) StdoutLine: {'line': b'running build\n'}
+[0.438074] (demo_python_pkg) StdoutLine: {'line': b'running build_py\n'}
+[0.438100] (demo_python_pkg) StdoutLine: {'line': b'running install\n'}
+[0.438128] (demo_python_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[0.438681] (demo_python_pkg) StdoutLine: {'line': b'running install_data\n'}
+[0.438796] (demo_python_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.439835] (demo_python_pkg) StdoutLine: {'line': b"removing '/home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.444901] (demo_python_pkg) StdoutLine: {'line': b'Copying ../build/demo_python_pkg/demo_python_pkg.egg-info to /home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg-0.0.0-py3.10.egg-info\n'}
+[0.445518] (demo_python_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[0.456047] (demo_python_pkg) StdoutLine: {'line': b'Installing learn_thread script to /home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_python_pkg/lib/demo_python_pkg\n'}
+[0.459228] (demo_python_pkg) StdoutLine: {'line': b'Installing person_node0 script to /home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_python_pkg/lib/demo_python_pkg\n'}
+[0.459274] (demo_python_pkg) StdoutLine: {'line': b'Installing python_node script to /home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_python_pkg/lib/demo_python_pkg\n'}
+[0.459306] (demo_python_pkg) StdoutLine: {'line': b'Installing writer_node1 script to /home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_python_pkg/lib/demo_python_pkg\n'}
+[0.459335] (demo_python_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/zsy/sy_git/ROS2/CHAPT2_WS/build/demo_python_pkg/install.log'\n"}
+[0.470804] (demo_python_pkg) CommandEnded: {'returncode': 0}
+[0.485007] (demo_python_pkg) JobEnded: {'identifier': 'demo_python_pkg', 'rc': 0}
+[0.505380] (-) TimerEvent: {}
+[0.569219] (demo_cpp_pkg) StdoutLine: {'line': b'[ 35%] \x1b[32m\x1b[1mLinking CXX executable learn_auto\x1b[0m\n'}
+[0.606492] (-) TimerEvent: {}
+[0.640711] (demo_cpp_pkg) StdoutLine: {'line': b'[ 35%] Built target learn_auto\n'}
+[0.647904] (demo_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target learn_lambda\x1b[0m\n'}
+[0.653062] (demo_cpp_pkg) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX executable learn_shared_ptr\x1b[0m\n'}
+[0.657702] (demo_cpp_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/learn_lambda.dir/src/learn_lambda.cpp.o\x1b[0m\n'}
+[0.708002] (-) TimerEvent: {}
+[0.721625] (demo_cpp_pkg) StdoutLine: {'line': b'[ 50%] Built target learn_shared_ptr\n'}
+[0.721787] (demo_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target learn_funcational\x1b[0m\n'}
+[0.723585] (demo_cpp_pkg) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/learn_funcational.dir/src/learn_funcational.cpp.o\x1b[0m\n'}
+[0.816931] (-) TimerEvent: {}
+[0.918795] (-) TimerEvent: {}
+[0.949796] (demo_cpp_pkg) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX executable learn_lambda\x1b[0m\n'}
+[0.990429] (demo_cpp_pkg) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX executable learn_funcational\x1b[0m\n'}
+[1.005048] (demo_cpp_pkg) StdoutLine: {'line': b'[ 71%] Built target learn_lambda\n'}
+[1.020349] (demo_cpp_pkg) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o\x1b[0m\n'}
+[1.020530] (-) TimerEvent: {}
+[1.044857] (demo_cpp_pkg) StdoutLine: {'line': b'[ 78%] Built target learn_funcational\n'}
+[1.127668] (-) TimerEvent: {}
+[1.234857] (-) TimerEvent: {}
+[1.342829] (-) TimerEvent: {}
+[1.443389] (-) TimerEvent: {}
+[1.543909] (-) TimerEvent: {}
+[1.644215] (-) TimerEvent: {}
+[1.744678] (-) TimerEvent: {}
+[1.845004] (-) TimerEvent: {}
+[1.945399] (-) TimerEvent: {}
+[2.045732] (-) TimerEvent: {}
+[2.147759] (-) TimerEvent: {}
+[2.248372] (-) TimerEvent: {}
+[2.349569] (-) TimerEvent: {}
+[2.450787] (-) TimerEvent: {}
+[2.551380] (-) TimerEvent: {}
+[2.651958] (-) TimerEvent: {}
+[2.752491] (-) TimerEvent: {}
+[2.853207] (-) TimerEvent: {}
+[2.914305] (demo_cpp_pkg) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX executable person_node\x1b[0m\n'}
+[2.953410] (-) TimerEvent: {}
+[3.002512] (demo_cpp_pkg) StdoutLine: {'line': b'[ 85%] Built target person_node\n'}
+[3.053722] (-) TimerEvent: {}
+[3.096455] (demo_cpp_pkg) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable cpp_node\x1b[0m\n'}
+[3.153934] (-) TimerEvent: {}
+[3.164419] (demo_cpp_pkg) StdoutLine: {'line': b'[ 92%] Built target cpp_node\n'}
+[3.254858] (-) TimerEvent: {}
+[3.355830] (-) TimerEvent: {}
+[3.456797] (-) TimerEvent: {}
+[3.558210] (-) TimerEvent: {}
+[3.659393] (-) TimerEvent: {}
+[3.760384] (-) TimerEvent: {}
+[3.861635] (-) TimerEvent: {}
+[3.973534] (-) TimerEvent: {}
+[4.074877] (-) TimerEvent: {}
+[4.175908] (-) TimerEvent: {}
+[4.280223] (-) TimerEvent: {}
+[4.381710] (-) TimerEvent: {}
+[4.482741] (-) TimerEvent: {}
+[4.583394] (-) TimerEvent: {}
+[4.684675] (-) TimerEvent: {}
+[4.785783] (-) TimerEvent: {}
+[4.858674] (demo_cpp_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable learn_thread\x1b[0m\n'}
+[4.886013] (-) TimerEvent: {}
+[4.969200] (demo_cpp_pkg) StdoutLine: {'line': b'[100%] Built target learn_thread\n'}
+[4.977007] (demo_cpp_pkg) CommandEnded: {'returncode': 0}
+[4.986836] (-) TimerEvent: {}
+[5.007543] (demo_cpp_pkg) JobProgress: {'identifier': 'demo_cpp_pkg', 'progress': 'install'}
+[5.014591] (demo_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/zsy/sy_git/ROS2/CHAPT2_WS/build/demo_cpp_pkg'], 'cwd': '/home/zsy/sy_git/ROS2/CHAPT2_WS/build/demo_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'zsy'), ('SSH_CLIENT', '192.168.196.1 52827 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/zsy/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/zsy/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/zsy'), ('OLDPWD', '/home/zsy/sy_git/ROS2/CHAPT2_WS/demo_cpp_pkg/include'), ('TERM_PROGRAM_VERSION', '1.95.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-50df5172-901a-4c60-addd-3e0201ac561b.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/zsy/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/zsy/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zsy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/zsy/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-05960287df.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/zsy/sy_git/ROS2/CHAPT2_WS/build/demo_cpp_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.196.1 52827 192.168.196.128 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.018824] (demo_cpp_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.019022] (demo_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_cpp_pkg/lib/demo_cpp_pkg/cpp_node\n'}
+[5.019655] (demo_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_cpp_pkg/lib/demo_cpp_pkg/cpp_node" to ""\n'}
+[5.019773] (demo_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_cpp_pkg/lib/demo_cpp_pkg/person_node\n'}
+[5.020327] (demo_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_cpp_pkg/lib/demo_cpp_pkg/person_node" to ""\n'}
+[5.020387] (demo_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_auto\n'}
+[5.020627] (demo_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_shared_ptr\n'}
+[5.020893] (demo_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_lambda\n'}
+[5.021140] (demo_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_funcational\n'}
+[5.021370] (demo_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_thread\n'}
+[5.023211] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/demo_cpp_pkg\n'}
+[5.023371] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/demo_cpp_pkg\n'}
+[5.023413] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.sh\n'}
+[5.023441] (demo_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.dsv\n'}
+[5.023638] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.sh\n'}
+[5.023681] (demo_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.dsv\n'}
+[5.023826] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.bash\n'}
+[5.023899] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.sh\n'}
+[5.024003] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.zsh\n'}
+[5.024038] (demo_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.dsv\n'}
+[5.024086] (demo_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_cpp_pkg/share/demo_cpp_pkg/package.dsv\n'}
+[5.024245] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_cpp_pkg/share/ament_index/resource_index/packages/demo_cpp_pkg\n'}
+[5.024333] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig.cmake\n'}
+[5.024384] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig-version.cmake\n'}
+[5.024548] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_cpp_pkg/share/demo_cpp_pkg/package.xml\n'}
+[5.025993] (demo_cpp_pkg) CommandEnded: {'returncode': 0}
+[5.065400] (demo_cpp_pkg) JobEnded: {'identifier': 'demo_cpp_pkg', 'rc': 0}
+[5.066105] (-) EventReactorShutdown: {}

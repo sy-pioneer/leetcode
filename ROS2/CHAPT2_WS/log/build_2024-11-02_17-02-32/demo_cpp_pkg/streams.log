@@ -1,0 +1,25 @@
+[0.015s] Invoking command in '/home/zsy/sy_git/ROS2/CHAPT2_WS/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zsy/sy_git/ROS2/CHAPT2_WS/build/demo_cpp_pkg -- -j4 -l4
+[0.091s] [35m[1mConsolidate compiler generated dependencies of target person_node[0m
+[0.098s] [ 50%] Built target cpp_node
+[0.101s] [100%] Built target person_node
+[0.204s] Invoked command in '/home/zsy/sy_git/ROS2/CHAPT2_WS/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zsy/sy_git/ROS2/CHAPT2_WS/build/demo_cpp_pkg -- -j4 -l4
+[0.244s] Invoking command in '/home/zsy/sy_git/ROS2/CHAPT2_WS/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zsy/sy_git/ROS2/CHAPT2_WS/build/demo_cpp_pkg
+[0.250s] -- Install configuration: ""
+[0.252s] -- Up-to-date: /home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_cpp_pkg/lib/demo_cpp_pkg/cpp_node
+[0.254s] -- Up-to-date: /home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_cpp_pkg/lib/demo_cpp_pkg/person_node
+[0.254s] -- Up-to-date: /home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/demo_cpp_pkg
+[0.254s] -- Up-to-date: /home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/demo_cpp_pkg
+[0.255s] -- Up-to-date: /home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.sh
+[0.255s] -- Up-to-date: /home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.dsv
+[0.255s] -- Up-to-date: /home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.sh
+[0.255s] -- Up-to-date: /home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.dsv
+[0.255s] -- Up-to-date: /home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.bash
+[0.255s] -- Up-to-date: /home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.sh
+[0.257s] -- Up-to-date: /home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.zsh
+[0.257s] -- Up-to-date: /home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.dsv
+[0.257s] -- Installing: /home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_cpp_pkg/share/demo_cpp_pkg/package.dsv
+[0.257s] -- Up-to-date: /home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_cpp_pkg/share/ament_index/resource_index/packages/demo_cpp_pkg
+[0.257s] -- Up-to-date: /home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig.cmake
+[0.257s] -- Up-to-date: /home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig-version.cmake
+[0.257s] -- Up-to-date: /home/zsy/sy_git/ROS2/CHAPT2_WS/install/demo_cpp_pkg/share/demo_cpp_pkg/package.xml
+[0.259s] Invoked command in '/home/zsy/sy_git/ROS2/CHAPT2_WS/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zsy/sy_git/ROS2/CHAPT2_WS/build/demo_cpp_pkg

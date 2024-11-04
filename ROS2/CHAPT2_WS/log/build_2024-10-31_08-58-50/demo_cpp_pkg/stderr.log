@@ -1,0 +1,84 @@
+[01m[K/home/zsy/sy_git/ROS2/CHAPT2_WS/demo_cpp_pkg/src/person_node.cpp:9:5:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+    9 |     [01;31m[Kint[m[K age_;
+      |     [01;31m[K^~~[m[K
+[01m[K/home/zsy/sy_git/ROS2/CHAPT2_WS/demo_cpp_pkg/src/person_node.cpp:8:17:[m[K [01;31m[Kerror: [m[Kbit-field ‘[01m[Kname_[m[K’ with non-integral type ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’}
+    8 |     std::string [01;31m[Kname_[m[K:
+      |                 [01;31m[K^~~~~[m[K
+[01m[K/home/zsy/sy_git/ROS2/CHAPT2_WS/demo_cpp_pkg/src/person_node.cpp:8:22:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+    8 |     std::string name_[01;31m[K:[m[K
+      |                      [01;31m[K^[m[K
+      |                       [32m[K;[m[K
+[01m[K/home/zsy/sy_git/ROS2/CHAPT2_WS/demo_cpp_pkg/src/person_node.cpp:[m[K In constructor ‘[01m[KPersonNode::PersonNode(const string&, const string&, const int&)[m[K’:
+[01m[K/home/zsy/sy_git/ROS2/CHAPT2_WS/demo_cpp_pkg/src/person_node.cpp:15:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass PersonNode[m[K’ has no member named ‘[01m[Kname_[m[K’
+   15 |         this->[01;31m[Kname_[m[K = name;
+      |               [01;31m[K^~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/zsy/sy_git/ROS2/CHAPT2_WS/demo_cpp_pkg/src/person_node.cpp:1[m[K:
+[01m[K/home/zsy/sy_git/ROS2/CHAPT2_WS/demo_cpp_pkg/src/person_node.cpp:[m[K In member function ‘[01m[Kvoid PersonNode::eat(const string&)[m[K’:
+[01m[K/home/zsy/sy_git/ROS2/CHAPT2_WS/demo_cpp_pkg/src/person_node.cpp:20:67:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass PersonNode[m[K’ has no member named ‘[01m[Kname_[m[K’
+   20 |         RCLCPP_INFO(this->get_logger(),"我是%s,%d岁,爱吃%s",this->[01;31m[Kname_[m[K.c_str(),
+      |                                                                   [01;31m[K^~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/zsy/sy_git/ROS2/CHAPT2_WS/demo_cpp_pkg/src/person_node.cpp:1[m[K:
+[01m[K/home/zsy/sy_git/ROS2/CHAPT2_WS/demo_cpp_pkg/src/person_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/zsy/sy_git/ROS2/CHAPT2_WS/demo_cpp_pkg/src/person_node.cpp:28:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+   28 |     RCLCPP_INFO(node-[01;31m[Kget_logger[m[K(),"你好C++节点！");
+      |                      [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/zsy/sy_git/ROS2/CHAPT2_WS/demo_cpp_pkg/src/person_node.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+  106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+      |                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/zsy/sy_git/ROS2/CHAPT2_WS/demo_cpp_pkg/src/person_node.cpp:1[m[K:
+[01m[K/home/zsy/sy_git/ROS2/CHAPT2_WS/demo_cpp_pkg/src/person_node.cpp:28:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   28 |     [01;31m[KRCLCPP_INFO[m[K(node-get_logger(),"你好C++节点！");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/zsy/sy_git/ROS2/CHAPT2_WS/demo_cpp_pkg/src/person_node.cpp:28:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   28 |     [01;31m[KRCLCPP_INFO[m[K(node-get_logger(),"你好C++节点！");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/zsy/sy_git/ROS2/CHAPT2_WS/demo_cpp_pkg/src/person_node.cpp:28:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   28 |     [01;31m[KRCLCPP_INFO[m[K(node-get_logger(),"你好C++节点！");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/person_node.dir/build.make:76：CMakeFiles/person_node.dir/src/person_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/person_node.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+gmake: *** [Makefile:146：all] 错误 2

@@ -1,0 +1,2 @@
+Invoking command in '/home/zsy/sy_git/ROS2/CHAPT2_WS/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zsy/sy_git/ROS2/CHAPT2_WS/build/demo_cpp_pkg -- -j4 -l4
+Invoked command in '/home/zsy/sy_git/ROS2/CHAPT2_WS/build/demo_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zsy/sy_git/ROS2/CHAPT2_WS/build/demo_cpp_pkg -- -j4 -l4

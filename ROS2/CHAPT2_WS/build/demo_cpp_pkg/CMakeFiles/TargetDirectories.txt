@@ -6,6 +6,7 @@
 /home/zsy/sy_git/ROS2/CHAPT2_WS/build/demo_cpp_pkg/CMakeFiles/learn_shared_ptr.dir
 /home/zsy/sy_git/ROS2/CHAPT2_WS/build/demo_cpp_pkg/CMakeFiles/learn_lambda.dir
 /home/zsy/sy_git/ROS2/CHAPT2_WS/build/demo_cpp_pkg/CMakeFiles/learn_funcational.dir
+/home/zsy/sy_git/ROS2/CHAPT2_WS/build/demo_cpp_pkg/CMakeFiles/learn_thread.dir
 /home/zsy/sy_git/ROS2/CHAPT2_WS/build/demo_cpp_pkg/CMakeFiles/test.dir
 /home/zsy/sy_git/ROS2/CHAPT2_WS/build/demo_cpp_pkg/CMakeFiles/edit_cache.dir
 /home/zsy/sy_git/ROS2/CHAPT2_WS/build/demo_cpp_pkg/CMakeFiles/rebuild_cache.dir

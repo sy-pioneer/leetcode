@@ -1,0 +1,34 @@
+[0.337s] Invoking command in '/home/zsy/sy_git/ROS2/CHAPT3_WS/topic_ws/src/demo_python_topic': PYTHONPATH=/home/zsy/sy_git/ROS2/CHAPT3_WS/topic_ws/build/demo_python_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zsy/sy_git/ROS2/CHAPT3_WS/topic_ws/install/demo_python_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/demo_python_topic build --build-base /home/zsy/sy_git/ROS2/CHAPT3_WS/topic_ws/build/demo_python_topic/build install --record /home/zsy/sy_git/ROS2/CHAPT3_WS/topic_ws/build/demo_python_topic/install.log --single-version-externally-managed install_data
+[0.447s] running egg_info
+[0.448s] creating ../../build/demo_python_topic/demo_python_topic.egg-info
+[0.448s] writing ../../build/demo_python_topic/demo_python_topic.egg-info/PKG-INFO
+[0.448s] writing dependency_links to ../../build/demo_python_topic/demo_python_topic.egg-info/dependency_links.txt
+[0.448s] writing entry points to ../../build/demo_python_topic/demo_python_topic.egg-info/entry_points.txt
+[0.448s] writing requirements to ../../build/demo_python_topic/demo_python_topic.egg-info/requires.txt
+[0.448s] writing top-level names to ../../build/demo_python_topic/demo_python_topic.egg-info/top_level.txt
+[0.448s] writing manifest file '../../build/demo_python_topic/demo_python_topic.egg-info/SOURCES.txt'
+[0.448s] reading manifest file '../../build/demo_python_topic/demo_python_topic.egg-info/SOURCES.txt'
+[0.448s] adding license file 'LICENSE'
+[0.448s] writing manifest file '../../build/demo_python_topic/demo_python_topic.egg-info/SOURCES.txt'
+[0.448s] running build
+[0.448s] running build_py
+[0.448s] creating /home/zsy/sy_git/ROS2/CHAPT3_WS/topic_ws/build/demo_python_topic/build
+[0.448s] creating /home/zsy/sy_git/ROS2/CHAPT3_WS/topic_ws/build/demo_python_topic/build/lib
+[0.448s] creating /home/zsy/sy_git/ROS2/CHAPT3_WS/topic_ws/build/demo_python_topic/build/lib/demo_python_topic
+[0.448s] copying demo_python_topic/__init__.py -> /home/zsy/sy_git/ROS2/CHAPT3_WS/topic_ws/build/demo_python_topic/build/lib/demo_python_topic
+[0.448s] running install
+[0.448s] running install_lib
+[0.448s] creating /home/zsy/sy_git/ROS2/CHAPT3_WS/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic
+[0.448s] copying /home/zsy/sy_git/ROS2/CHAPT3_WS/topic_ws/build/demo_python_topic/build/lib/demo_python_topic/__init__.py -> /home/zsy/sy_git/ROS2/CHAPT3_WS/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic
+[0.449s] byte-compiling /home/zsy/sy_git/ROS2/CHAPT3_WS/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic/__init__.py to __init__.cpython-310.pyc
+[0.449s] running install_data
+[0.449s] creating /home/zsy/sy_git/ROS2/CHAPT3_WS/topic_ws/install/demo_python_topic/share/ament_index
+[0.449s] creating /home/zsy/sy_git/ROS2/CHAPT3_WS/topic_ws/install/demo_python_topic/share/ament_index/resource_index
+[0.449s] creating /home/zsy/sy_git/ROS2/CHAPT3_WS/topic_ws/install/demo_python_topic/share/ament_index/resource_index/packages
+[0.449s] copying resource/demo_python_topic -> /home/zsy/sy_git/ROS2/CHAPT3_WS/topic_ws/install/demo_python_topic/share/ament_index/resource_index/packages
+[0.449s] copying package.xml -> /home/zsy/sy_git/ROS2/CHAPT3_WS/topic_ws/install/demo_python_topic/share/demo_python_topic
+[0.449s] running install_egg_info
+[0.450s] Copying ../../build/demo_python_topic/demo_python_topic.egg-info to /home/zsy/sy_git/ROS2/CHAPT3_WS/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic-0.0.0-py3.10.egg-info
+[0.450s] running install_scripts
+[0.461s] writing list of installed files to '/home/zsy/sy_git/ROS2/CHAPT3_WS/topic_ws/build/demo_python_topic/install.log'
+[0.472s] Invoked command in '/home/zsy/sy_git/ROS2/CHAPT3_WS/topic_ws/src/demo_python_topic' returned '0': PYTHONPATH=/home/zsy/sy_git/ROS2/CHAPT3_WS/topic_ws/build/demo_python_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zsy/sy_git/ROS2/CHAPT3_WS/topic_ws/install/demo_python_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/demo_python_topic build --build-base /home/zsy/sy_git/ROS2/CHAPT3_WS/topic_ws/build/demo_python_topic/build install --record /home/zsy/sy_git/ROS2/CHAPT3_WS/topic_ws/build/demo_python_topic/install.log --single-version-externally-managed install_data

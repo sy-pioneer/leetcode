@@ -1,0 +1,6 @@
+{
+  "package_name": "status_interfaces",
+  "non_idl_tuples": [
+    "/home/zsy/sy_git/ROS2/CHAPT3_WS/topic_practice_ws/src/status_interfaces:msg/SystemStatus.msg"
+  ]
+}

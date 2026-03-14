@@ -1,3 +1,0 @@
-/home/zsy/sy_git/ROS2/CHAPT1/CMakeFiles/learn_cmake.dir
-/home/zsy/sy_git/ROS2/CHAPT1/CMakeFiles/edit_cache.dir
-/home/zsy/sy_git/ROS2/CHAPT1/CMakeFiles/rebuild_cache.dir

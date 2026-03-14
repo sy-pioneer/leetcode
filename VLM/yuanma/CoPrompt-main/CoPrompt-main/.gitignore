@@ -1,8 +1,0 @@
-.trunk/
-.mypy_cache/
-__pycache__/
-data/
-.DS_Store
-.vscode/
-output/
-cache/

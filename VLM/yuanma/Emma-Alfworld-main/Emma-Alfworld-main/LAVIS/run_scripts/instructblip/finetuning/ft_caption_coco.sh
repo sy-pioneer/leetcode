@@ -1,1 +1,0 @@
-python -m torch.distributed.run --nproc_per_node=3 train.py --cfg-path lavis/projects/instructblip/finetuning/caption_coco_ft.yaml
